@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import './globals.css'
 import Link from 'next/link';
-import local from './Secondpage/Capture.PNG'
+// import local from './Secondpage/Capture.PNG'
 
 
 export default function Home() {
@@ -38,12 +38,12 @@ export default function Home() {
 
 {/* Local Image    */}
 
-<Image
+{/* <Image
     src={local} // Route of the image file
     height={144} // Desired size with correct aspect ratio
     width={144} // Desired size with correct aspect ratio
     alt="Your Name"
-  />
+  /> */}
 </div>
 
 
