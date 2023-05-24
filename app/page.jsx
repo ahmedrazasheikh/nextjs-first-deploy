@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import './globals.css'
 import Link from 'next/link';
+import profilePic from './profile.png';
 // import local from './Secondpage/Capture.PNG'
 
 
@@ -38,12 +39,12 @@ export default function Home() {
 
 {/* Local Image    */}
 
-{/* <Image
-    src={local} // Route of the image file
+<Image
+        src={profilePic} // Route of the image file
     height={144} // Desired size with correct aspect ratio
     width={144} // Desired size with correct aspect ratio
     alt="Your Name"
-  /> */}
+  />
 </div>
 
 
